@@ -25,6 +25,8 @@
     <!--  TRY IT YOURSELF  -->
     <h2>Try It</h2>
     <i>Create a button that will pop up your name</i>
+    <p></p>
+    <button onclick="alert('Maher')">Say Name</button>
 
     <p>&nbsp;</p>
     <p>&nbsp;</p>
@@ -37,7 +39,7 @@
     <!-- We will place it here in the style tag to keep everything together. -->
     <style>
         .button{
-            background-color: #4CAF50; /* Green */
+            background-color: rgb(150, 55, 55); /* Green */
             border: none;
             color: white;
             padding: 15px 32px;
@@ -45,6 +47,7 @@
             text-decoration: none;
             font-size: 16px;
             margin: 4px 2px;
+            border-radius: 12px;
         }
     </style>
     <button class="button">Fancy Button</button>
@@ -134,6 +137,7 @@
             text-decoration: none;
             font-size: 16px;
             margin: 4px 2px;
+            display: inline-block;
         }
 
         .question{
@@ -147,6 +151,9 @@
 
     <p class="question" id="question">Question Here?</p>
     <button class="quizButton">Answer One</button>
+    <button class="quizButton">Answer Two</button>
+    <button class="quizButton">Answer Three</button>
+    <button class="quizButton">Answer Four</button>
 
     <h3>Try It: Make a Question and List of Answers.</h3>
     <p>In the Javascript file, create a variable for the question.</p>
